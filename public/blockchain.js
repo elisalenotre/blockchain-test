@@ -67,7 +67,6 @@ class Blockchain {
     }
 }
 
-// export the classes
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { Blockchain, Transaction };
 } else {
