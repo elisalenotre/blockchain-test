@@ -1,1 +1,2 @@
-# blockchain-test
+# projet-test-blockchain
+A JavaScript project

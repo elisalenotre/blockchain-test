@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Demo</title>
+</head>
+<body>
+    <h1>Blockchain Demo</h1>
+    <div>
+        <h2>Ajouter une transaction</h2>
+        <form id="transactionForm">
+            <label for="fromAddress">De :</label>
+            <input type="text" id="fromAddress" required>
+            <br>
+            <label for="toAddress">À :</label>
+            <input type="text" id="toAddress" required>
+            <br>
+            <label for="amount">Montant :</label>
+            <input type="number" id="amount" required>
+            <br>
+            <button type="submit">Ajouter Transaction</button>
+        </form>
+    </div>
+    <div>
+        <h2>Blockchain</h2>
+        <pre id="blockchain"></pre>
+    </div>
+    <button id="mineButton">Miner les transactions en attente</button>
+    
+    <script src="blockchain.js"></script>
+    <script src="app.js"></script>
+    <div>
+        <h2>Blockchain</h2>
+        <pre id="blockchain"></pre>
+    </div>
+    <button id="mineButton">Miner les transactions en attente</button>
+
+    <script src="blockchain.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
